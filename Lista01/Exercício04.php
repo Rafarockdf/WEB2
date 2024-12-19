@@ -7,7 +7,12 @@
 </head>
 <body>
     <?php
-    echo "Olá Mundo!";
-    ?>  
+        $num = 5;
+        if($num % 2 == 0){
+            echo "O número $num é par";
+        } else{
+            echo "O número $num não é par";
+        }
+    ?>
 </body>
 </html>

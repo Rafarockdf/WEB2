@@ -7,7 +7,8 @@
 </head>
 <body>
     <?php
-    echo "Olá Mundo!";
-    ?>  
+        $nome = "Rafael Luiz";
+        echo "Meu nome é $nome";
+    ?>
 </body>
 </html>

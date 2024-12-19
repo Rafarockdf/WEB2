@@ -7,7 +7,10 @@
 </head>
 <body>
     <?php
-    echo "Olá Mundo!";
-    ?>  
+        $a = 5;
+        $b = 10;
+        $c = $a + $b;
+        echo $c;
+    ?>
 </body>
 </html>
