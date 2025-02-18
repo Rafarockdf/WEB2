@@ -7,12 +7,13 @@
 </head>
 <body>
     <?php
-        $num = 5;
-        if($num % 2 == 0){
-            echo "O número $num é par";
-        } else{
-            echo "O número $num não é ímpar";
+        $soma = 0;
+        for($i = 1; $i <= 200;$i++){
+            if($i % 2 != 0){
+                $soma = $soma + $i;
+            }
         }
+        echo $soma;
     ?>
 </body>
 </html>

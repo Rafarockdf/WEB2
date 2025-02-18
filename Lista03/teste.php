@@ -7,12 +7,10 @@
 </head>
 <body>
     <?php
-        $num = 5;
-        if($num % 2 == 0){
-            echo "O número $num é par";
-        } else{
-            echo "O número $num não é ímpar";
-        }
+        $n1 = 10;
+        $n2 = "5";
+        $n3 = $n1 + $n2;
+        echo $n3;
     ?>
 </body>
 </html>
